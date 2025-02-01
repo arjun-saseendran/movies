@@ -16,6 +16,7 @@ export const MovieCard = ({ movie }) => {
 
       <div className="movie-info">
         <h3>{movie.title}</h3>
+        <p>{movie.movieDate}</p>
       </div>
     </div>
   );
